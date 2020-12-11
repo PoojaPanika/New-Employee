@@ -1,0 +1,57 @@
+html {
+    background-color: #3aaf9f;
+    text-align: left,center;
+    margin-left: 200px;
+}
+
+#nameDiv {
+    margin-top: 20px;
+}
+
+.input {
+    font-size: 20px;
+    color: rgb(15, 1, 1);
+    font-weight: 600;
+    font-family: monospace;
+    margin: 20px;
+}
+
+#entry{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 2px;
+    background-color: #010801;
+    color: rgb(245, 235, 235);
+    box-shadow: 0 2px 2px 0 rgba(160, 156, 156, 0.5);
+    margin-top: 5px;
+    margin-left: 330px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px 10px;
+    padding: 10px;
+    background-color: rgb(250, 247, 244);
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #000000;
+}
+
+td {
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(2, 15, 7);
+    font-family: monospace;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Employee</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+    
+    <fieldset style="width: 40%;margin: 0,auto">
+        <legend>Employee Info Form</legend>
+    <div id="container">
+        <div id="nameDiv" class="input">Name: <input id="name" type="text" placeholder=" enter your name" /> </div>
+        <div class="input">Employee ID: <input id="employeeid" type="text" placeholder="enter your employee id" /> </div>
+        <div class="input">Department: <select id="department" name="department">
+            <option>department</option>
+            <option>Deep Learning</option>
+            <option>Bot Developer</option>
+            <option>Frontend Engineer</option>
+            <option>Backend Engineer</option>
+            <option>Business Development and Marketing</option>
+        </select></div>
+        <div class="input">Email ID: <input id="emailid" type="text" placeholder="enter your email" /> </div>
+        <div class="input">Date of Joining(DOJ): <input id="date" type="date" name="date"/></div>
+        <button id="entry">Submit</button>
+    </div>
+    </fieldset>
+
+
+    <fieldset style="margin: 0 auto">
+        <legend>Employee Details</legend>
+    <table id="display">
+        <tr>
+            <th>Name</th>
+            <th>EmployeeID</th>
+            <th>Department</th>
+            <th>Email Id</th>
+            <th>DOJ</th>
+        </tr>
+    </table>
+    </fieldset>
+
+    <script src="script.js"></script>       
+</body>
+</html>
